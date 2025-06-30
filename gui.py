@@ -72,7 +72,7 @@ class PanelPrincipal(PanelBase):
     def crear_widgets_extra(self):
         self.slider = tk.Scale(
             self, 
-            from_=0, 
+            from_=10, 
             to=100, 
             orient="horizontal", 
             label="Nivel de brillo",
